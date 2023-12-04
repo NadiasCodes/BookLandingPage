@@ -1,0 +1,33 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #dbd2ca73;
+}
+.heading {
+  position: relative;
+  background-image: url("https://i.postimg.cc/cHP4mNXJ/e41bfb41-ebd0-47a9-80d6-0ebd1cf11a19.jpg");
+
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 25px;
+  left: 318px;
+  max-width: 70%;
+}
+.line {
+  opacity: 0.2;
+  margin: 0px;
+}
+.title {
+  background-color: #dbd2ca5f;
+  color: #906f56ac;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-family: "Parisienne", cursive;
+  font-size: 40px;
+}
