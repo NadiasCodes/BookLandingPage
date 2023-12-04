@@ -10,8 +10,9 @@ body {
 .containerbox {
   display: flex;
   justify-content: space-between;
-  padding:20px;
-  margin:30px;
+  padding: 20px;
+  margin: 30px;
+  background-color: #d9cabd;
 }
 .heading {
   position: relative;
@@ -24,6 +25,17 @@ body {
   bottom: 25px;
   left: 318px;
   max-width: 70%;
+}
+.text {
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-family: "Cookie", cursive;
+}
+.image {
+  transition: all 500ms transparent;
+}
+image:hover {
+  transform: scale(1.1);
 }
 .line {
   opacity: 0.2;
