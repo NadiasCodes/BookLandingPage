@@ -12,7 +12,7 @@ body {
   justify-content: space-between;
   padding: 20px;
   margin: 30px;
-  background-color: #d9cabd;
+  background-color: #e0d9d0;
 }
 .heading {
   position: relative;
@@ -30,6 +30,8 @@ body {
   font-size: 30px;
   letter-spacing: 5px;
   font-family: "Cookie", cursive;
+  text-wrap: wrap;
+  color: #463f3a;
 }
 
 .line {
@@ -52,11 +54,12 @@ body {
   color: #906f56ac;
   padding: 10px;
   font-size: 25px;
-  letter-spacing: 10px;
+  letter-spacing: 20px;
   font-family: "Parisienne", cursive;
   font-size: 40px;
   position: relative;
-  left: 570px;
+  left: 50px;
+  text-wrap: wrap;
 }
 .gallery-images {
   display: flex;
@@ -67,6 +70,7 @@ div.gallery {
   float: left;
   width: 450px;
   transition: all 500ms ease-in-out;
+  box-shadow: 5px 5px 5px 5px #906f5636;
 }
 
 div.gallery:hover {
