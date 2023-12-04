@@ -17,7 +17,6 @@ body {
 .heading {
   position: relative;
   background-image: url("https://i.postimg.cc/cHP4mNXJ/e41bfb41-ebd0-47a9-80d6-0ebd1cf11a19.jpg");
-
   height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,9 +28,10 @@ body {
 .text {
   font-size: 30px;
   letter-spacing: 5px;
-  font-family: "Cookie", cursive;
+  font-family: "Parisienne", cursive;
   text-wrap: wrap;
-  color: #463f3a;
+  color: #1f140bac;
+  font-weight: none;
 }
 
 .line {
@@ -57,8 +57,7 @@ body {
   letter-spacing: 20px;
   font-family: "Parisienne", cursive;
   font-size: 40px;
-  position: relative;
-  left: 50px;
+  text-align: center;
   text-wrap: wrap;
 }
 .gallery-images {
@@ -90,4 +89,22 @@ div.desc {
   font-size: 28px;
   font-weight: none;
   font-style: italic;
+}
+
+.coder {
+  text-align: center;
+  font-size: 28px;
+  font-family: "Cookie", cursive;
+  margin: 0 auto;
+}
+.shecodes {
+  color: #642de8;
+}
+a {
+  text-decoration: none;
+  color: #53423c;
+}
+
+a:hover {
+  color: #9e6240;
 }
