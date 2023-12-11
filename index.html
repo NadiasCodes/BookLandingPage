@@ -27,20 +27,41 @@
       body,
       html {
         height: 100%;
+        width: 100%;
       }
 
       body {
-        background-color: #dbd2ca;
+        background-color: #f5f2ed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
       }
 
+      .content {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        max-width: 100%;
+        height: 80%;
+
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/106/350/original/ezgif.com-video-to-gif.gif?1701977669");
+      }
+
       .image {
         position: relative;
         bottom: 40px;
         transition: all 500ms ease-in-out;
+      }
+      .header {
+        display: block;
+        margin: 0 auto;
+        margin-top: 100px;
+
+        background-color: #2e13023a;
+        padding: 30px 35px;
+        border-radius: 10px;
       }
 
       .image:hover {
@@ -72,11 +93,6 @@
         margin: 10px;
       }
 
-      .top-container {
-        position: relative;
-        max-width: 800px;
-        margin: 0 auto;
-      }
       .second-title {
         background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148907305.jpg?w=1480&t=st=1701975535~exp=1701976135~hmac=40326ce30c652e6a36b47e31848518a112de5c2e8da14597d42ca6c909112db1");
         color: #2c1503ac;
@@ -101,7 +117,7 @@
       .gallery-images {
         display: flex;
         background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148907305.jpg?w=1480&t=st=1701975535~exp=1701976135~hmac=40326ce30c652e6a36b47e31848518a112de5c2e8da14597d42ca6c909112db1");
-         background-position: center;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
       }
@@ -144,37 +160,21 @@
       }
       a {
         text-decoration: none;
-        color: #6a7c7c;
+        color: #bf9e95;
       }
 
       a:hover {
-        color: #2e1302;
-      }
-
-      .title {
-        text-align: center;
-        position: absolute;
-        bottom: 0px;
-        background-color: #dbd2ca30;
-        color: #000000ac;
-
-        font-size: 40px;
-        letter-spacing: 10px;
-        font-family: "Niconne", cursive;
-        font-size: 40px;
-        width: 100%;
-        padding: 50px;
+        color: #a1a0a2;
       }
     </style>
   </head>
   <body>
+    <div class="content"><img src="" alt="" style="width:100%></div>
     <div class="container">
-      <div class="content">
-        <h1 class="title">The book that changed my life ˚ · • . ° .♡</h1>
-        <img
-        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/106/350/original/ezgif.com-video-to-gif.gif?1701977669"
-        alt="gif " style="width:100%;>
-      </div>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/106/789/original/My_Life-changing_Book-removebg-preview.png?1702301284"
+        class="header"
+      />
     </div>
     <hr class="line" />
     <main>
